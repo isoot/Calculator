@@ -49,6 +49,8 @@ import android.view.ViewConfiguration;
 import android.widget.OverScroller;
 import android.widget.Toast;
 
+import com.android.calculator.tian.R;
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 

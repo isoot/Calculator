@@ -23,6 +23,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.android.calculator.tian.R;
+
 import java.text.DecimalFormatSymbols;
 import java.util.HashMap;
 import java.util.Locale;

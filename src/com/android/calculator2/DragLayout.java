@@ -33,6 +33,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
+import com.android.calculator.tian.R;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

@@ -21,12 +21,15 @@ import android.app.Fragment;
 import android.os.Bundle;
 
 import android.support.v4.content.ContextCompat;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toolbar;
+
+import com.android.calculator.tian.R;
 
 import java.util.ArrayList;
 
@@ -58,7 +61,7 @@ public class HistoryFragment extends Fragment implements DragLayout.DragCallback
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-            Bundle savedInstanceState) {
+                             Bundle savedInstanceState) {
         final View view = inflater.inflate(
                 R.layout.fragment_history, container, false /* attachToRoot */);
 
@@ -66,6 +69,7 @@ public class HistoryFragment extends Fragment implements DragLayout.DragCallback
         mDragLayout.addDragCallback(this);
 
         mRecyclerView = (RecyclerView) view.findViewById(R.id.history_recycler_view);
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         mRecyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrollStateChanged(RecyclerView recyclerView, int newState) {

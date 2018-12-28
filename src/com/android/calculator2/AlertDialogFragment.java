@@ -23,11 +23,12 @@ import android.app.DialogFragment;
 import android.app.FragmentManager;
 import android.content.DialogInterface;
 import android.os.Bundle;
-
 import android.support.annotation.Nullable;
 import android.support.annotation.StringRes;
 import android.view.LayoutInflater;
 import android.widget.TextView;
+
+import com.android.calculator.tian.R;
 
 /**
  * Display a message with a dismiss putton, and optionally a second button.

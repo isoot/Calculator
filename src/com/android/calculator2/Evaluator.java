@@ -30,6 +30,8 @@ import android.text.Spannable;
 import android.util.Log;
 
 
+import com.android.calculator.tian.R;
+
 import java.io.ByteArrayInputStream;
 import java.io.DataInput;
 import java.io.DataInputStream;

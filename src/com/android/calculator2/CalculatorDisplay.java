@@ -28,6 +28,8 @@ import android.view.accessibility.AccessibilityManager;
 import android.widget.LinearLayout;
 import android.widget.Toolbar;
 
+import com.android.calculator.tian.R;
+
 public class CalculatorDisplay extends LinearLayout
         implements AccessibilityManager.AccessibilityStateChangeListener {
 

@@ -37,6 +37,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
+import com.android.calculator.tian.R;
+
 /**
  * TextView adapted for displaying the formula and allowing pasting.
  */
